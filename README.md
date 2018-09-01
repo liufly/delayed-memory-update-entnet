@@ -11,6 +11,11 @@ Numpy-1.14.2
 $ python main.py --embedding_file PATH/TO/GLOVE_EMBEDDING_FILE
 ```
 
+Note that the code assumes that the first line in the embedding file specifies the vocabulary size and dimension size:
+```shell
+sed -i '1i VOCAB_SIZE DIM_SIZE' PATH/TO/GLOVE_EMBEDDING_FILE
+```
+
 ```
 @InProceedings{Liu+:2018,
   author    = {Liu, Fei  and Cohn, Trevor and Baldwin, Timothy},
