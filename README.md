@@ -20,7 +20,7 @@ sed -i '1i VOCAB_SIZE DIM_SIZE' PATH/TO/GLOVE_EMBEDDING_FILE
 @InProceedings{Liu+:2018,
   author    = {Liu, Fei  and Cohn, Trevor and Baldwin, Timothy},
   title     = {Recurrent Entity Networks with Delayed Memory Update for Targeted Aspect-based Sentiment Analysis},
-  booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2018)},
+  booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
   year      = {2018},
   address   = {New Orleans, USA},
   pages     = {278--283}
